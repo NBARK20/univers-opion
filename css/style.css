@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+  
+}
+body{
+    background-color: #fff;
+
+   
+
+  
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: fixed;
+   top: 0;
+   overflow: hidden;
+   width: 100%;
+   background-color: #fff;
+
+
+    
+}
+nav .logo{
+    width: 300px;
+    margin: 20px 50px;
+}
+nav .list-menu ul{
+ display: flex;
+
+ 
+}
+
+nav .list-menu ul li a{
+    margin: 0 30px;
+    font-weight: 300;
+    font-size: 19px;
+    color: black;
+   
+}
+nav .list-menu ul li a:hover{
+    color: blueviolet;
+}
+.button-menu{
+    margin: 0 10px;
+    margin: 20px 50px;
+
+}
+.button-menu a{
+    margin: 0 20px;
+   
+}
+.button-menu button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+.button-menu button:hover{
+    background-color: antiquewhite;
+}
+.body{
+    text-align: center;
+    height: 83vh;
+}
+.body-element{
+
+    margin:  auto 30px;
+    height: 83vh;
+    padding: 60px;
+  
+  
+}
+.body-element h1{
+    font-size: 110px;
+}
+.body-element h1 span{
+    color: rgb(247, 43, 43);
+}
+
+p{
+    font-size: 30px;
+    margin-top: -70px;
+}
+.btn{
+    padding: 60px;
+    margin: 0 90px;
+    
+}
+.start-btn{
+    
+    background-color: red;
+    padding: 15px 60px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size:25px;
+}
+.start-btn:hover{
+    background-color: rgb(148, 157, 255);
+    transition: .3s;
+}
+.img{
+    text-align: center;
+    margin-top: 150px;
+}
+.adve{
+    margin:  auto 30px;
+
+}
+.adve .seh{
+    color: #ff5400;
+    font-size: 70px;
+}
+.adve h1{
+    text-align: center;
+    margin: 20px 70px;
+  
+}
+.adve-ele{
+    display: flex;
+   margin: 0 70px;
+}
+.side-ele{
+    margin: 20px 30px;
+}
+.side-ele h1{
+    font-size: 50px;
+
+}
+.first{
+    background-color: rgb(237, 237, 237);
+    padding: 25px;
+    margin: 10px 0;
+}
+.first .fa-solid{
+    background-color: #fffafa;
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+.first span{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.second{
+    background-color: rgb(237, 237, 237);
+    padding: 25px;
+    margin: 10px 0;
+    
+}
+.second .fa-solid{
+    background-color: #fffafa;
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+.second span{
+    margin: 0 10px;
+    font-size: 18px;
+}
+.tree{
+    background-color: rgb(237, 237, 237);
+    padding: 25px;
+    margin: 10px 0;
+}
+.tree  .fa-solid{
+    background-color: #fffafa;
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+.tree  span{
+    margin: 0 10px;
+    font-size: 18px;
+}
+.contact{
+    margin-top: 30px;
+}
+.contact a{
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background-color:#ff5400;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contact a:hover{
+
+    transition: .3s;
+    background-color: rgb(255, 160, 35);
+}
+
+.section-info{
+    border-top: 4px solid #ff5400;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: #fff;
+   margin: 40px 7%;
+  
+
+}
+.sec{
+    margin: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-info .info1{
+    text-align: center;
+   padding: 10px;
+}
+.section-info .info1 .fa-solid{
+ padding: 20px;
+ border-radius: 50%;
+    background-color: aliceblue;
+}
+.section-info .info1 h1 {
+    margin: 20px 0 ;
+}
+.section-info .info1 p{
+    margin: 5px 0;
+}
+
+.publishers .seh{
+    color: #ff5400;
+    font-size: 70px;
+    text-align: center;
+
+}
+.publishers-se{
+    display: flex;
+}
+
+.publishers1 h1{
+  margin: 20px 0;
+
+}
+
+.publ-lift{
+    margin: 70px 0;
+    
+}
+.publ-btn a{
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    padding: 20px 60px;
+    background-color:#ff5400;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+   
+}
+.publ-btn a:hover{
+    transition: .3s;
+    background-color: rgb(255, 160, 35);
+}
+
+.about-s{
+    margin: 60px 30px;
+    text-align: center;
+}
+
+.about-s h1{
+    color: #ff5400;
+    font-size: 70px;
+
+}
+
+.about-s p{
+    margin: 30px 60px;
+     text-align: start;
+}
+.social-media{
+    background-color: #ff5400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.social-media span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social-link a{
+    margin: 0 10px;
+    font-size: 30px;
+
+}
+.social-link a:hover{
+    color: #fff;
+    transition: .5s;
+}
+
+/* This template developped by Kazdabi nbark */
+.own{
+    text-align: center;
+    padding: 25px;
+    background-color: aliceblue;
+
+}
+.own span{
+    margin: 20px 30px;
+    color:#5d5d67;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.own p{
+    margin-top: 5px;
+}
